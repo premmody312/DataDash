@@ -43,14 +43,14 @@ This project implements a **Real-Time Analytics Dashboard** using [Streamlit](ht
 
 ### Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
    git clone https://github.com/premmody312/DataDash.git
-   cd DataDash
 
-2. Install dependencies:
+2. **Install dependencies:**
    pip install -r requirements.txt
 
-3. Run the application:
+3. **Run the application:**
    streamlit run app.py
 
-4. Open the provided URL (usually http://localhost:8501) in your browser.
+4. **Open the URL:** 
+   Open the provided URL (usually http://localhost:8501) in your browser.
