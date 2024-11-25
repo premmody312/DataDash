@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import time
 import matplotlib.pyplot as plt
-from growthbook import GrowthBook
+#from growthbook import GrowthBook
 
 # Configure Streamlit app
 st.set_page_config(page_title="Real-Time Analytics Dashboard", layout="wide")
@@ -23,8 +23,8 @@ def get_dummy_data():
 data = get_dummy_data()
 
 # Initialize GrowthBook
-gb = GrowthBook()
-gb.set_features({"new_feature": {"defaultValue": True}})
+# gb = GrowthBook()
+# gb.set_features({"new_feature": {"defaultValue": True}})
 
 # Page Title
 st.markdown("<h1 style='text-align: center; color: white;'>Real-Time Analytics Dashboard (Simulation)</h1>", unsafe_allow_html=True)
