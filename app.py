@@ -27,27 +27,27 @@ data = get_dummy_data()
 # gb.set_features({"new_feature": {"defaultValue": True}})
 
 # Page Title
-st.markdown("<h1 style='text-align: center; color: white;'>Real-Time Analytics Dashboard (Simulation)</h1>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center; color: white;'>Real-Time Analytics Dashboard (Simulation)</h1>", unsafe_allow_html=True)
 
 # Create Columns for Layout
 col1, col2 = st.columns([2, 1])  # 2:1 ratio for main chart and side data
 
 # ---- Titles and Containers ----
 with col1:
-    st.markdown("<h2 style='text-align: left; color: white;'>Real-Time Traffic Data</h2>", unsafe_allow_html=True)
+    st.markdown("<h5 style='text-align: center; color: white;'>Real-Time Traffic Data</h2>", unsafe_allow_html=True)
     chart_placeholder = st.empty()  # Placeholder for real-time chart
 
 # Create containers in col2
 with col2:
     with st.container():
-        st.markdown("<h3 style='text-align: left; color: white;'>Simulated Google Analytics Data</h3>", unsafe_allow_html=True)
+        st.markdown("<h5 style='text-align: center; color: white;'>Simulated Google Analytics Data</h3>", unsafe_allow_html=True)
         placeholder_ga = st.empty()
     with st.container():
-        st.markdown("<h3 style='text-align: left; color: white;'>Simulated LogRocket Interaction Logs </h3>", unsafe_allow_html=True)
-        st.markdown("<h5 style='text-align: left; color: white;'>(Most Recent 5 User Interaction Logs)</h5>", unsafe_allow_html=True)
+        st.markdown("<h5 style='text-align: center; color: white;'>Simulated LogRocket Interaction Logs </h3>", unsafe_allow_html=True)
+        st.markdown("<h6 style='text-align: center; color: white;'>(Most Recent 5 User Interaction Logs)</h5>", unsafe_allow_html=True)
         placeholder_logrocket = st.empty()
     with st.container():
-        st.markdown("<h3 style='text-align: left; color: white;'>Simulated GrowthBook A/B Testing Results</h3>", unsafe_allow_html=True)
+        st.markdown("<h5 style='text-align: center; color: white;'>Simulated GrowthBook A/B Testing Results</h3>", unsafe_allow_html=True)
         placeholder_growthbook = st.empty()
 
 # Initialize LogRocket Logs
